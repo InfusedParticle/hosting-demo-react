@@ -10,7 +10,7 @@ app.use(cors());
 // Sample endpoint
 app.get('/message', (req, res) => {
     console.log("GET endpoint contacted")
-    res.json({ message: 'Hello from the server!' });
+    res.json({ message: 'Hello from Aayush!' });
 });
 
 app.get('/', (req, res) => {
